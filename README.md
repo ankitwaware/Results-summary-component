@@ -4,7 +4,7 @@
 
 ### Links
 - Solution URL: [Add solution URL here](https://github.com/ankitwaware/Results-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://app.netlify.com/sites/jolly-froyo-a47ca8/overview)
 
 ### The challenge
 
