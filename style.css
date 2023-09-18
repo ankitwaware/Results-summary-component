@@ -1,0 +1,158 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(221, 100%, 96%);
+}
+
+.container {
+  display: flex;
+  width: 45vw;
+  min-height: 60vh;
+  font-family: "Hanken Grotesk";
+  font-weight: 500;
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 10px hsl(241, 100%, 89%);
+}
+
+.score-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-color: hsl(241, 81%, 54%);
+  color: hsl(241, 100%, 89%);
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.content-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+/* Score-Box Items */
+
+.scroe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  color: hsl(252, 100%, 67%);
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.scroe h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.score-box h2 {
+  color: #fff;
+}
+
+.score-box p {
+  font-size: 18px;
+}
+
+/* Content-Box Items */
+
+.summary-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(221, 100%, 96%);
+  color: hsl(241, 100%, 89%);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.summary-info img {
+  margin-right: 10px;
+}
+
+.property {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.property-red {
+  color: hsl(0, 100%, 67%);
+}
+.property-yellow {
+  color: hsl(39, 100%, 56%);
+}
+.property-Green {
+  color: hsl(166, 100%, 37%);
+}
+.property-blue {
+  color: hsl(234, 85%, 45%);
+}
+
+.number {
+  color: hsl(241, 100%, 89%);
+}
+
+.number :first-child {
+  color: hsl(224, 30%, 27%);
+}
+
+.button {
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: hsla(256, 72%, 46%, 1);
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 100vw;
+    flex-direction: column;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .score-box {
+    width: 100vw;
+    height: 45vh;
+    padding: 20px;
+    border-radius: 0 0 25px 25px;
+  }
+
+  .content-box {
+    width: 100vw;
+    height: 55vh;
+    padding: 25px;
+  }
+
+  .scroe {
+    height: 120px;
+    width: 120px;
+  }
+}
