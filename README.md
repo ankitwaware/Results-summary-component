@@ -3,6 +3,7 @@
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
 ### Links
+
 - Solution URL: [Add solution URL here](https://github.com/ankitwaware/Results-summary-component)
 - Live Site URL: [Add live site URL here](https://app.netlify.com/sites/jolly-froyo-a47ca8/overview)
 
@@ -17,10 +18,9 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
-
+The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
 
 You will find all the required assets in the `/images` folder. The assets are already optimized.
 
